@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Form</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th colspan="2">Biểu mẫu đang kí thảo công nghệ</th> 
+            </tr>
+            <tr>
+                <th>họ tên</th>
+                <td><input type="text" name="name" placeholder="Nhập họ tên của bạn"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" name="email" placeholder="Nhập email"></td>
+            </tr>
+            <tr>
+                <th>Chủ đề bn quan tâm</th>
+                <td>
+                    <select name="subject">
+                        <option value="web">Thiết kế web</option>
+                        <option value="mobile">Phát triển ứng dụng di động</option>
+                        <option value="data">Phân tích dữ liệu</option>
+                        <option value="ai">Trí tuệ nhân tạo</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Bạn đã tham gia hội thảo trước đây chưa?</th>
+                <td>
+                    <input type="radio" name="previous" value="yes"> Có
+                    <input type="radio" name="previous" value="no"> Không
+            </tr>
+            <tr>
+                <th>Thời gian để tham dự</th>
+                <td>
+                    <input type="checkbox" name="time" value="morning"> sáng
+                    <input type="checkbox" name="time" value="afternoon"> chiều
+                    <input type="checkbox" name="time" value="evening"> tối
+            </tr>
+            <tr>
+                <th>câu hỏi dành cho diễn giả</th>
+                <td><textarea name="question" rows="4" cols="50" placeholder="Nhập câu hỏi của bạn"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Đăng kí"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

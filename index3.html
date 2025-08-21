@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 3</title>
+</head>
+<body>
+    <form action="submit_form.asp" method="post">
+        <h1>Đăng Nhập</h1>
+        <label for="First">First Name:</label>
+        <input type="text" id="First" name="First"><br><br>
+        <label for="Last">Last Name:</label>
+        <input type="text" id="Last" name="Last"><br><br>
+        <label for="password">password:</label>
+        <input type="text" id="password" name="password" maxlength="10" placeholder="nhập password"> <small id="charset">0/10</small><br><br>
+        <label for="date">Ngày Sinh:</label> 
+        <input type="date" id="date" name="date"> <br>
+        <input type="file" id="file" name="file"><br><br>
+        <input type="submit"> <br>
+        <h2>Giới tính</h2>
+                    nam: <input type="radio" name="di">
+                    nữ: <input type="radio" name="input2">
+                    khác: <input type="radio" name="input3"><br><br>
+        <h2>Sở thích</h2>
+        <input type="checkbox" name="input4">đọc sách<br>
+        <input type="checkbox" name="input5">nghe nhạc<br>
+        <input type="checkbox" name="input6">xem phim<br>
+        <input type="checkbox" name="input7">chơi game<br>
+        <h3>Quê quán:</h3>
+        Quê Quán:
+        <select name="Quê quán">
+            <option value="textarea">thái nguyên</option>
+            <option value="bac giang">bắc Giang</option>
+            <option value="điện biên">điện biên</option>
+            <option value="bắc ninh">bắc ninh</option>
+        </select>
+        <br>
+        smartphone:
+        <select name="smartphone" id="123">
+            <optgroup label="iphone">
+                <option value="1">iphone 3</option>
+                <option value="1">iphone 4</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option value="1">galaxy s1</option>
+                <option value="2">galaxy s2</option>
+            </optgroup>
+            <optgroup label="xiaomi">   
+                <option value="1">note 13</option>              
+                <option value="2">note 14</option>   
+            </optgroup>   
+        </select>
+        <br><br>
+        <input type="button" value="bấm vào đây" onclick="alert('bạn đã bấm vào đây')"><br><br>
+        <fieldset>
+            <legend><h2>Thông tin cá nhân</h2></legend>
+            <input type="checkbox" name="input8">Đồng ý nhận thông tin từ chúng tôi<br>
+            <input type="checkbox" name="input9">Đồng ý nhận thông tin từ đối tác<br>
+            <input type="checkbox" name="input10">Đồng ý nhận thông tin từ các bên thứ ba<br>
+        </fieldset>
+        <input type="color" id="color" name="color"><br><br>
+    </form>
+</body>
+</html>
